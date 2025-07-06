@@ -18,17 +18,17 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Rohan
+          Hi I'm Rohan Karan
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
-            className="text-5xl font-medium text-neutral-300"
+            className="text-2xl font-medium text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Developer <br /> Dedicated to Crafting
+          I'm a Software Engineer <br /> with expertise in Java Development and Web Development . <br /> Proven experience in SDLC, System Design, Spring Boot and API Security. <br /> Adept at building 
           </motion.p>
           <motion.div
             variants={variants}
@@ -38,17 +38,17 @@ const HeroText = () => {
           >
             <FlipWords
               words={words}
-              className="font-black text-white text-8xl"
+              className="font-black text-white text-4xl"
             />
           </motion.div>
           <motion.p
-            className="text-4xl font-medium text-neutral-300"
+            className="text-2xl font-medium text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Solutions
+           backend/frontend systems and delivering high-quality code.
           </motion.p>
         </div>
       </div>
