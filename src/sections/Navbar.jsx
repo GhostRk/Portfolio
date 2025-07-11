@@ -1,24 +1,56 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 
-function Navigation() {
-    return <ul className="nav-ul">
-        <li className="nav-li">
-            <a className="nav-link">Home</a>
-        </li>
-
-        <li className="nav-li">
-            <a className="nav-link">About</a>
-        </li>
-
-        <li className="nav-li">
-            <a className="nav-link">Work</a>
-        </li>
-
-        <li className="nav-li">
-            <a className="nav-link">Contact</a>
-        </li>
+function Navigation({ closeMobileMenu }) {
+  return (
+    <ul className="nav-ul flex flex-col sm:flex-row gap-4 sm:gap-8">
+      <li className="nav-li">
+        <a 
+          href="#home" 
+          className="nav-link text-neutral-400 hover:text-white transition-colors"
+          onClick={closeMobileMenu}
+        >
+          Home
+        </a>
+      </li>
+      <li className="nav-li">
+        <a 
+          href="#about" 
+          className="nav-link text-neutral-400 hover:text-white transition-colors"
+          onClick={closeMobileMenu}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-li">
+        <a 
+          href="#projects" 
+          className="nav-link text-neutral-400 hover:text-white transition-colors"
+          onClick={closeMobileMenu}
+        >
+          Projects
+        </a>
+      </li>
+      <li className="nav-li">
+        <a 
+          href="#experience" 
+          className="nav-link text-neutral-400 hover:text-white transition-colors"
+          onClick={closeMobileMenu}
+        >
+          Experience
+        </a>
+      </li>
+      <li className="nav-li">
+        <a 
+          href="#contact" 
+          className="nav-link text-neutral-400 hover:text-white transition-colors"
+          onClick={closeMobileMenu}
+        >
+          Contact
+        </a>
+      </li>
     </ul>
+  );
 }
 
 const Navbar = () => {
@@ -38,10 +70,10 @@ const Navbar = () => {
                 </div>
             </div>
             {isOpen && (
-                <motion.div className="block overflow-hidden text-center sm:hidden" 
-                initial={{ opacity:0, x:-10}}
-                animate={{ opacity:1, x: 0}}
-                style={{ maxHeight: "100vh"}}>
+                <motion.div className="block overflow-hidden text-center sm:hidden"
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    style={{ maxHeight: "100vh" }}>
                     <nav className="pb-5">
                         <Navigation />
                     </nav>
