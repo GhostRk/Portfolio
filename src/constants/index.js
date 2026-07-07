@@ -93,10 +93,26 @@ export const mySocials = [
 ];
 
 export const experiences = [
-    {
+   {
+    title: "Full Stack GenAI Developer",
+    job: "Industrility",
+    date: "2025-Present",
+    contents: [
+        "Developed enterprise-grade AI applications for document intelligence and organizational knowledge management.",
+        "Designed and built scalable backend services using Node.js, Express.js, and AWS Serverless architecture.",
+        "Implemented OpenSearch indexing, schema design, bulk ingestion, and real-time synchronization pipelines for enterprise search.",
+        "Built graph-based organization hierarchy solutions using AWS Neptune and optimized Gremlin queries for complex relationship traversal.",
+        "Developed DocGPT, an AI-powered document analysis platform supporting document ingestion, chunking, embeddings, retrieval, and contextual question answering.",
+        "Integrated OpenAI and Microsoft GenAI models to generate document summaries, structured outputs, and AI-assisted workflows.",
+        "Worked with DynamoDB, AWS Lambda, S3, and REST APIs to build scalable cloud-native microservices.",
+        "Built React.js frontend modules for document review, AI-generated content validation, and real-time data visualization.",
+        "Collaborated across backend, frontend, and AI pipelines to deliver production-ready enterprise features with optimized performance and reliability.",
+    ],
+},
+ {
         title: "Software Developer",
-        job: "Rural Network Planning Tool At ORB Connect",
-        date: "2024-Present",
+        job: "Rural Network Planning Tool At Rosa Tech",
+        date: "2023-2025",
         contents: [
     "RNPT is a network planning tool designed to address the real-world challenge of rural telecom deployment, ",
     "where terrain unpredictability affects signal coverage.", 
@@ -111,20 +127,6 @@ export const experiences = [
     "accelerate deployment, and improve data-driven decisions in rural network expansion.",
         ],
     },
-    {
-        title: "Software-Developer",
-        job: "Design-and-Implementation of Web Interface for Trading At ROSA Tech.",
-        date: "2023-2024",
-        contents: [
-           "Successfully built a full-stack web interface for real-time Forex and stock market research",
-           " using the latest technologies including React.js, Node.js, and MongoDB.",
-            "The platform enabled users to analyze trading trends, compare asset performance,",
-            " and visualize market insights, solving the core problem of decision paralysis among traders. ",
-            "This project showcased my problem-solving skills by turning raw financial data into actionable insights",
-            " and demonstrated my ability to design scalable, user-centric financial tools.",
-        ],
-    },
-    
 ];
 export const reviews = [
     {
