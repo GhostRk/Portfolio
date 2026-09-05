@@ -28,7 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-          I'm a Software Engineer <br /> with expertise in Java Development and Web Development . <br /> Proven experience in SDLC, System Design, Spring Boot and API Security. <br /> Adept at building 
+          I'm a Software Engineer <br /> with expertise in  Web Development and AWS cloud based services . <br /> Proven experience in SDLC, System Design, NodeJs  and RestAPI. <br /> Adept at building 
           </motion.p>
           <motion.div
             variants={variants}
