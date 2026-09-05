@@ -92,6 +92,39 @@ export const mySocials = [
     
 ];
 
+export const certifications = [
+    {
+        title: "NISM-Series-VIII: Equity Derivatives Certification Examination",
+        issuer: "NISM",
+        href: "https://drive.google.com/file/d/1yq8Fgt_-_ClZD47DEdzhG9R-u9bAs9Qg/view?usp=sharing",
+    },
+    {
+        title: "Phishing Awareness Certification",
+        issuer: "Security Awareness",
+        href: "https://drive.google.com/file/d/1BZ3WhKL2F1TTUFHDddkqv470CJtg1sjT/view?usp=sharing",
+    },
+    {
+        title: "SOC 2 Compliance Certification",
+        issuer: "Security Compliance",
+        href: "https://drive.google.com/file/d/1Ib9N-vPfcJbvyZ_n1aBmiwMTpr5ujQ_T/view?usp=sharing",
+    },
+    {
+        title: "CodeChef JavaScript Certification",
+        issuer: "CodeChef",
+        href: "https://www.codechef.com/certificates/public/0a1b9da",
+    },
+    {
+        title: "CodeChef Back-end Development using Node JS",
+        issuer: "CodeChef",
+        href: "https://www.codechef.com/certificates/public/6f5b058",
+    },
+    {
+        title: "CodeChef Advanced JavaScript Certification",
+        issuer: "CodeChef",
+        href: "https://www.codechef.com/certificates/public/9206cc3",
+    },
+];
+
 export const experiences = [
    {
     title: "Full Stack GenAI Developer",

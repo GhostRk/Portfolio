@@ -41,6 +41,15 @@ function Navigation({ closeMobileMenu }) {
         </a>
       </li>
       <li className="nav-li">
+        <a
+          href="#certifications"
+          className="nav-link text-neutral-400 hover:text-white transition-colors"
+          onClick={closeMobileMenu}
+        >
+          Certifications
+        </a>
+      </li>
+      <li className="nav-li">
         <a 
           href="#contact" 
           className="nav-link text-neutral-400 hover:text-white transition-colors"
